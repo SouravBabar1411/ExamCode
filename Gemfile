@@ -66,3 +66,8 @@ gem 'devise', '~> 4.8', '>= 4.8.1'
 
 #Boostrap gem
 gem 'bootstrap', '~> 5.1.3'
+
+#Omaniauth gem for social login
+gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
+
+gem "omniauth-rails_csrf_protection"
