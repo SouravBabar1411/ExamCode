@@ -63,3 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #Deivse gem for user authentication
 gem 'devise', '~> 4.8', '>= 4.8.1'
+
+#Boostrap gem
+gem 'bootstrap', '~> 5.1.3'
