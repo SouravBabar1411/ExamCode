@@ -11,7 +11,11 @@
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
 #  role                   :integer          default("admin")
-#
+#  gender                 :string
+#  first_name             :string
+#  image                  :string
+#  uid                    :string
+#  provider               :string
 
 class User < ApplicationRecord
   # Include default devise modules. Others available are:
