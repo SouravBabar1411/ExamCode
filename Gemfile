@@ -71,3 +71,4 @@ gem 'bootstrap', '~> 5.1.3'
 gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
 
 gem "omniauth-rails_csrf_protection"
+
