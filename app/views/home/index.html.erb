@@ -1,4 +1,4 @@
-
+<br>
 <table class="business-tags table table-bordered table-striped" id="user">
   <thead class="table-dark">
     <tr>
@@ -14,6 +14,15 @@
       <td><%= image_tag current_user.image, size:'40x40' if current_user.image? %></td>
       <td><%= current_user.first_name %></td>
       <td><%= current_user.email%></td>
+      <td><div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Action
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Block</a></li>
+          <li><a class="dropdown-item" href="#">Unblock</a></li>
+        </ul>
+      </div></td>
     </tr>
   </tbody>
 </table>
